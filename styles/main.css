@@ -1,0 +1,93 @@
+.wholePage {
+    background-color: rgb(48, 179, 219);
+    text-align: center;
+    font-size: medium;
+}
+
+.fishTypes {
+    display: flex;
+    border: 0.5ch solid teal;
+    text-align: top;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-size-adjust: large;
+    background-color: rgb(71, 179, 146);
+
+
+
+}
+
+.tips {
+    display: flex;
+    flex-direction: row;
+    border: 0.5ch solid teal;
+    text-align: top;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-size-adjust: large;
+    background-color: rgb(71, 179, 146);
+}
+
+.singleTip {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 200px;
+    border-radius: 8px;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.frogtipsimage,
+.fangtipsimage,
+.liontipsimage {
+    width: 200px;
+    border-radius: 8px;
+    height: 150px;
+    justify-content: center;
+
+}
+
+.location {
+    display: flex;
+    text-align: top;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 30px;
+
+
+
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    max-width: 25%;
+    font-size: 20px;
+    background-color: rgb(71, 179, 146);
+    color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    max-height: 10%
+}
+
+
+.types_Tips {
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+
+}
